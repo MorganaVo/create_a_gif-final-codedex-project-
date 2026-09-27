@@ -6,3 +6,5 @@ images = []
 for file in filenames:     
   images.append(iio.imread(file))  
 iio.imwrite("robot.gif", images, duration=500, loop=0) 
+
+
